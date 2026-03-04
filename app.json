@@ -11,7 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#1a1f3c"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.crossworddaily.app"
@@ -29,6 +31,15 @@
     "plugins": [
       "expo-router"
     ],
-    "scheme": "crossword-daily"
+    "scheme": "crossword-daily",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "6efae065-317e-4606-b37c-51c8e142641d"
+      }
+    },
+    "owner": "opengurkan"
   }
 }
